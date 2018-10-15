@@ -1,0 +1,17 @@
+{
+  "name": "simple-signal-socket-id-failure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start-server": "node ./server/index.js",
+    "start-client": "npm --prefix ./client run start"
+  },
+  "dependencies": {
+    "simple-signal-server": "^1.5.1",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
